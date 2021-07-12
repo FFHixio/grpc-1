@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM php:7.2-zts-stretch
+FROM php:7.3-zts-stretch
 
 RUN apt-get -qq update && apt-get -qq install -y \
   autoconf automake git libtool pkg-config \
